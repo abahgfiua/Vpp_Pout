@@ -337,7 +337,7 @@
             <div class="input-group">
                 <label>功放增益 (Gain)</label>
                 <div class="input-wrapper">
-                    <input type="number" id="gain" value="60" step="0.1">
+                    <input type="number" id="gain" value="50" step="0.1">
                     <select id="gain-unit">
                         <option value="dB">dB</option>
                     </select>
@@ -584,7 +584,7 @@
 
     function resetForm() {
         el('rl').value = 50;
-        el('gain').value = 60; // 默认增益 60
+        el('gain').value = 50; // 默认增益 50
         el('vpp').value = '';
         el('pout').value = '';
         el('resultPanel').style.display = 'none';
